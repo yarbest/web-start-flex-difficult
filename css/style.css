@@ -15,12 +15,7 @@ body {
   margin: 0 auto;
 }
 
-.bx-wrapper {
-  border: 1px solid #000;
-}
-
 .bxslider li {
-  border: 3px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +25,6 @@ body {
 }
 
 .book-info__body {
-  border: 1px solid #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,7 +35,6 @@ body {
 }
 
 .book-info__image {
-  border: 1px solid #000;
   margin-right: 73px;
   width: 40%;
 }
@@ -51,7 +44,6 @@ body {
 }
 
 .book-info__text {
-  border: 1px solid #000;
   width: 46.5%;
   margin-top: 60px;
 }
