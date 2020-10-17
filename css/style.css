@@ -252,7 +252,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 70%;
+    width: 55%;
     margin-top: 0;
   }
   .book-info__title {
