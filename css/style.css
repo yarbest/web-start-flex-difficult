@@ -284,11 +284,11 @@ body {
   }
   .book-info__buttons .buy {
     margin-right: 20px;
-    padding: 18px 10px;
+    padding: 12px 15px;
     font-size: 24px;
   }
   .book-info__buttons .details {
-    padding: 18px 10px;
+    padding: 12px 15px;
     font-size: 24px;
   }
   .delivery-payment__body {
@@ -377,11 +377,11 @@ body {
   }
   .book-info__buttons .buy {
     margin-right: 20px;
-    padding: 18px 10px;
+    padding: 12px 15px;
     font-size: 24px;
   }
   .book-info__buttons .details {
-    padding: 18px 10px;
+    padding: 12px 15px;
     font-size: 24px;
   }
   .delivery-payment__body {
@@ -432,7 +432,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 70%;
     margin-bottom: 30px;
     margin-right: 0;
     width: 70%;
@@ -483,11 +482,11 @@ body {
   }
   .book-info__buttons .buy {
     margin-right: 8px;
-    padding: 18px 10px;
+    padding: 10px 10px;
     font-size: 20px;
   }
   .book-info__buttons .details {
-    padding: 18px 10px;
+    padding: 10px 10px;
     font-size: 20px;
   }
   .delivery-payment__content {
