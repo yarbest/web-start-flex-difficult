@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" /> -->
+        <link rel="stylesheet" href="css/jquery.bxslider.css" />
+        <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <section class="book-info">
             <div class="container">
                 <div class="book-info__body">
-                    <div class="book-info__image"><img src="img/book_image.jpg" alt="book" /></div>
+                    <div class="book-info__image">
+                        <!-- <img src="img/book_image.jpg" alt="book" /> -->
+                        <ul class="bxslider">
+                            <li><img src="img/book_image.jpg" /></li>
+                            <li><img src="img/book_image.jpg" /></li>
+                            <li><img src="img/book_image.jpg" /></li>
+                            <li><img src="img/book_image.jpg" /></li>
+                        </ul>
+                    </div>
                     <div class="book-info__text">
                         <div class="book-info__title">
                             <h1>Истинная королева</h1>
@@ -81,5 +91,10 @@
                 </div>
             </div>
         </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script> -->
+        <script src="js/jquery.bxslider.js"></script>
+
+        <script src="js/custom.js"></script>
     </body>
 </html>
