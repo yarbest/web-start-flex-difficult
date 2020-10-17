@@ -16,10 +16,11 @@ body {
 }
 
 .bx-wrapper {
-  width: 100%;
+  border: 1px solid #000;
 }
 
 .bxslider li {
+  border: 3px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,6 +30,7 @@ body {
 }
 
 .book-info__body {
+  border: 1px solid #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,6 +41,7 @@ body {
 }
 
 .book-info__image {
+  border: 1px solid #000;
   margin-right: 73px;
   width: 40%;
 }
@@ -48,6 +51,7 @@ body {
 }
 
 .book-info__text {
+  border: 1px solid #000;
   width: 46.5%;
   margin-top: 60px;
 }
@@ -314,9 +318,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  .bx-wrapper {
-    width: 70%;
-  }
   .book-info__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -334,12 +335,12 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%;
     margin-bottom: 30px;
     margin-right: 0;
+    width: 60%;
   }
   .book-info__image img {
-    max-width: 40%;
+    max-width: 70%;
   }
   .book-info__text {
     display: -webkit-box;
@@ -439,12 +440,13 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%;
+    width: 70%;
     margin-bottom: 30px;
     margin-right: 0;
+    width: 70%;
   }
   .book-info__image img {
-    max-width: 40%;
+    max-width: 70%;
   }
   .book-info__text {
     display: -webkit-box;
