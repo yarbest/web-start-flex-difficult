@@ -14,19 +14,13 @@ body
 .container
     max-width: 1140px
     margin: 0 auto
-    // border: 1px solid red
-
-.bx-wrapper
-
-.bx-viewport
-
-.bxslider
-    li
-        a
-            display: flex
-            justify-content: center
 
 .book-info
+    .bxslider
+        li
+            a
+                display: flex
+                justify-content: center
     &__body
         display: flex
         align-items: flex-start
@@ -88,7 +82,7 @@ body
     background-color: $bachground-gray
     &__body
         padding: 82px 0 100px 0
-        
+    
     &__title
         margin-bottom: 91px
         text-align: center
@@ -100,8 +94,7 @@ body
         grid-template-columns: minmax(auto, 21%) minmax(auto, 21%) minmax(auto, 21%) minmax(auto, 21%)
         justify-content: space-between
         grid-column-gap: 5%
-        &-item
-             
+        &-item  
             display: flex
             flex-direction: column
             align-items: center
@@ -115,6 +108,34 @@ body
             .item-text
                 p
                     font-size: 18px
+
+.buyers
+    color: $delivery-color-all
+    &__body
+        padding: 90px 0 110px 0
+    &__title
+        margin-bottom: 70px
+        h2
+            text-align: center
+            font-size: 30px
+    &__content
+        display: grid
+        // grid-template-rows: 1fr 1fr //не обязательно
+
+        // grid-template-columns:  minmax(auto, 22.9%) minmax(auto, 22.9%) minmax(auto, 22.9%) minmax(auto, 22.9%)
+        // justify-content: space-between
+        //равносильно слудеющим 2-ум строкам
+        grid-template-columns:  1fr 1fr 1fr 1fr
+        grid-column-gap: 30px
+        grid-row-gap: 40px
+
+        &-item
+            .item-image
+                // height: 260px 
+                img
+                    display: block
+                    max-width: 100%
+                    max-height: 100%
 
 @media (max-width: 1199px)
     .container
@@ -161,6 +182,14 @@ body
             .details
                 padding: 17px 25px
                 font-size: 22px
+    .buyers
+        &__body
+        &__title
+            h2
+        &__content
+            &-item
+                .item-image
+                    img
 
 @media (max-width: 991px)
     .book-info
@@ -208,7 +237,6 @@ body
             .details
                     padding: 12px 15px
                     font-size: 24px
-
     .delivery-payment
         &__body
             padding: 60px 0 80px 0
@@ -223,6 +251,24 @@ body
             &-item
                 .item-image
                     margin-bottom: 10px
+                    img
+    .buyers
+        &__body
+            padding: 70px 0 90px 0
+        &__title
+            margin-bottom: 50px
+            h2
+                
+        &__content
+            // grid-template-columns:  minmax(auto, 30%) minmax(auto, 30%) minmax(auto, 30%)
+            // justify-content: space-between
+            grid-template-columns:  1fr 1fr 1fr 1fr
+            grid-column-gap: 30px
+            justify-items: center
+
+            grid-row-gap: 30px
+            &-item
+                .item-image
                     img
 
 @media (max-width: 767px)
@@ -276,7 +322,6 @@ body
             .details
                     padding: 12px 15px
                     font-size: 24px
-
     .delivery-payment
         &__body
             padding: 40px 0 50px 0
@@ -295,6 +340,19 @@ body
                 justify-content: center
                 .item-image
                     margin-bottom: 10px
+                    img
+    .buyers
+        &__body
+            padding: 50px 0 70px 0
+        &__title
+            margin-bottom: 40px
+            h2
+        &__content
+            grid-template-columns:  1fr 1fr 1fr
+            grid-gap: 20px
+
+            &-item
+                .item-image
                     img
 
 @media (max-width: 480px)
@@ -345,7 +403,6 @@ body
             .details
                     padding: 10px 10px
                     font-size: 20px
-
     .delivery-payment
         &__content
             grid-template-rows: repeat(4, 1fr)
@@ -353,5 +410,16 @@ body
             grid-gap: 20px
             &-item
                 .item-image
-                    // margin-bottom: 0
+                    img
+    .buyers
+        &__body
+            padding: 30px 0 50px 0
+        &__title
+            margin-bottom: 30px
+            h2
+        &__content
+            grid-template-columns:  1fr 1fr
+            grid-gap: 15px
+            &-item
+                .item-image
                     img
