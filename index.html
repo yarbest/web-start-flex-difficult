@@ -6,7 +6,8 @@
         <title>Document</title>
         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" /> -->
         <link rel="stylesheet" href="css/jquery.bxslider.css" />
-        <link rel="stylesheet" href="css/lightzoom.css" />
+        <!-- <link rel="stylesheet" href="css/lightzoom.css" /> -->
+        <link rel="stylesheet" href="lib/fancybox/jquery.fancybox.css" />
 
         <link rel="stylesheet" href="css/style.css" />
     </head>
@@ -18,10 +19,10 @@
                         <!-- <img src="img/book_image.jpg" alt="book" /> -->
                         <ul class="bxslider">
                             <li>
-                                <a href="img/book_image.jpg" class="lightzoom"><img src="img/book_image.jpg" /></a>
+                                <a data-fancybox="gallery" href="img/book_image.jpg"><img src="img/book_image.jpg" /></a>
                             </li>
                             <li>
-                                <a href="img/book_image.jpg" class="lightzoom"><img src="img/book_image_2.jpg" /></a>
+                                <a data-fancybox="gallery" href="img/book_image_2.jpg"><img src="img/book_image_2.jpg" /></a>
                             </li>
                         </ul>
                     </div>
@@ -49,6 +50,11 @@
                 </div>
             </div>
         </section>
+
+        <!-- <div class="gallery">
+            <a data-fancybox="gallery" href="img/book_image.jpg"><img src="img/book_image.jpg" /></a>
+            <a data-fancybox="gallery" href="img/book_image_2.jpg"><img src="img/book_image_2.jpg" /></a>
+        </div> -->
 
         <section class="delivery-payment">
             <div class="container">
@@ -142,7 +148,8 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/jquery.bxslider.js"></script>
-        <script src="js/lightzoom.js"></script>
+        <script src="lib/fancybox/jquery.fancybox.js"></script>
+        <!-- <script src="js/lightzoom.js"></script> -->
         <script type="text/javascript">
             jQuery(".lightzoom").lightzoom({ speed: 400, viewTitle: true });
         </script>
