@@ -42,7 +42,6 @@ body {
 .book-info__image {
   margin-right: 73px;
   width: 36%;
-  border: 1px solid #000;
 }
 
 .book-info__image img {
