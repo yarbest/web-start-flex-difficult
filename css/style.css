@@ -25,10 +25,6 @@ body {
           justify-content: center;
 }
 
-.slider .slide a img {
-  max-height: 590px;
-}
-
 .book-info__body {
   display: -webkit-box;
   display: -ms-flexbox;
