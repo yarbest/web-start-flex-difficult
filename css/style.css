@@ -42,6 +42,7 @@ body {
 .book-info__image {
   margin-right: 73px;
   width: 36%;
+  border: 1px solid #000;
 }
 
 .book-info__image img {
@@ -217,7 +218,7 @@ body {
     margin: 77px 0 96px 0;
   }
   .book-info__image {
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .book-info__text {
     width: 46.5%;
@@ -271,7 +272,6 @@ body {
     margin: 50px 0 70px 0;
   }
   .book-info__image {
-    margin-left: 0;
     margin-right: 40px;
   }
   .book-info__text {
@@ -369,6 +369,7 @@ body {
   .book-info__image {
     margin-bottom: 30px;
     margin-right: 0;
+    margin-left: 0;
   }
   .book-info__text {
     display: -webkit-box;
