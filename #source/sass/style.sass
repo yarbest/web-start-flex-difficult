@@ -124,18 +124,28 @@ body
             text-align: center
             font-size: 30px
     &__content
-        display: grid
+        // display: grid
+        //уже не надо, так как поменял на слайдер
+
         // grid-template-rows: 1fr 1fr //не обязательно
 
         // grid-template-columns:  minmax(auto, 22.9%) minmax(auto, 22.9%) minmax(auto, 22.9%) minmax(auto, 22.9%)
         // justify-content: space-between
         //равносильно слудеющим 2-ум строкам
-        grid-template-columns:  1fr 1fr 1fr 1fr
-        grid-column-gap: 30px
-        grid-row-gap: 40px
 
+        // grid-template-columns:  1fr 1fr 1fr 1fr
+        // grid-column-gap: 30px
+        // grid-row-gap: 40px
+        // border: 1px solid #000
+        // display: flex
+        // justify-content: center
+        width: 70%
+        margin: 0 auto
         &-item
+            padding: 0 10px
             .item-image
+                display: flex
+                justify-content: center
                 // height: 260px 
                 img
                     display: block
@@ -273,11 +283,12 @@ body
         &__content
             // grid-template-columns:  minmax(auto, 30%) minmax(auto, 30%) minmax(auto, 30%)
             // justify-content: space-between
-            grid-template-columns:  1fr 1fr 1fr 1fr
-            grid-column-gap: 30px
-            justify-items: center
 
-            grid-row-gap: 30px
+            // grid-template-columns:  1fr 1fr 1fr 1fr
+            // grid-column-gap: 30px
+            // justify-items: center
+
+            // grid-row-gap: 30px
             &-item
                 .item-image
                     img
@@ -357,9 +368,9 @@ body
             margin-bottom: 40px
             h2
         &__content
-            grid-template-columns:  1fr 1fr 1fr
-            grid-gap: 20px
-
+            // grid-template-columns:  1fr 1fr 1fr
+            // grid-gap: 20px
+            width: 60%
             &-item
                 .item-image
                     img
@@ -423,8 +434,9 @@ body
             margin-bottom: 30px
             h2
         &__content
-            grid-template-columns:  1fr 1fr
-            grid-gap: 15px
+            // grid-template-columns:  1fr 1fr
+            // grid-gap: 15px
+            width: 70%
             &-item
                 .item-image
                     img
