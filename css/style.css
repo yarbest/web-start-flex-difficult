@@ -58,7 +58,7 @@ body {
   margin: 0;
   margin-left: -0.07em;
   line-height: 0.7;
-  font-size: 48px;
+  font-size: calc(26px + 22 * ((100vw - 320px) / 1046));
 }
 
 .book-info__subtitle {
@@ -66,7 +66,7 @@ body {
 }
 
 .book-info__subtitle p {
-  font-size: 30px;
+  font-size: calc(22px + 8 * ((100vw - 320px) / 1046));
 }
 
 .book-info__description {
@@ -74,7 +74,7 @@ body {
 }
 
 .book-info__description p {
-  font-size: 18px;
+  font-size: calc(12px + 6 * ((100vw - 320px) / 1046));
   line-height: 27px;
 }
 
@@ -235,19 +235,14 @@ body {
     margin: 0;
     margin-left: -0.07em;
     line-height: 0.7;
-    font-size: 42px;
   }
   .book-info__subtitle {
     margin-bottom: 33px;
-  }
-  .book-info__subtitle p {
-    font-size: 26px;
   }
   .book-info__description {
     margin-bottom: 33px;
   }
   .book-info__description p {
-    font-size: 18px;
     line-height: 27px;
   }
   .book-info__price {
@@ -299,19 +294,12 @@ body {
     margin: 0;
     margin-left: -0.07em;
     line-height: 0.7;
-    font-size: 40px;
   }
   .book-info__subtitle {
     margin-bottom: 20px;
   }
-  .book-info__subtitle p {
-    font-size: 32px;
-  }
   .book-info__description {
     margin-bottom: 25px;
-  }
-  .book-info__description p {
-    font-size: 20px;
   }
   .book-info__price {
     margin-bottom: 25px;
@@ -389,19 +377,12 @@ body {
     margin: 0;
     margin-left: -0.07em;
     line-height: 0.7;
-    font-size: 40px;
   }
   .book-info__subtitle {
     margin-bottom: 20px;
   }
-  .book-info__subtitle p {
-    font-size: 32px;
-  }
   .book-info__description {
     margin-bottom: 25px;
-  }
-  .book-info__description p {
-    font-size: 20px;
   }
   .book-info__price {
     margin-bottom: 25px;
@@ -492,19 +473,12 @@ body {
     margin: 0;
     margin-left: -0.07em;
     line-height: 0.7;
-    font-size: 32px;
   }
   .book-info__subtitle {
     margin-bottom: 20px;
   }
-  .book-info__subtitle p {
-    font-size: 26px;
-  }
   .book-info__description {
     margin-bottom: 25px;
-  }
-  .book-info__description p {
-    font-size: 20px;
   }
   .book-info__price {
     margin-bottom: 25px;
