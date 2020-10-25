@@ -74,7 +74,7 @@ body {
 }
 
 .book-info__description p {
-  font-size: calc(12px + 6 * ((100vw - 320px) / 1046));
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1046));
   line-height: 27px;
 }
 
