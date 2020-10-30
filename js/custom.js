@@ -11,6 +11,7 @@ $(document).ready(function () {
     $(".slider").slick({
         dots: true,
         adaptiveHeight: true,
+        // ебучая хуета, из-за которой все пошло по пизде, если true у цикла
         infinite: false,
     });
 });
