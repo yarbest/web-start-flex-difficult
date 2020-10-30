@@ -11,6 +11,7 @@ $(document).ready(function () {
     $(".slider").slick({
         dots: true,
         adaptiveHeight: true,
+        infinite: false,
     });
 });
 
@@ -20,13 +21,13 @@ $(document).ready(function () {
         centerMode: true,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
+                    slidesToScroll: 2,
                 },
             },
             {
